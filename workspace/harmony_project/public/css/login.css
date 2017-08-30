@@ -1,0 +1,38 @@
+/*
+|**************************************************************************
+| login id, password 입력부분
+|**************************************************************************
+*/
+.back{
+    background-color:#1F8A70;
+    width:100%;
+}
+
+.topmenu a{
+    margin-top:10px;
+    z-index:100;
+    margin-right:20px;
+    float:right;
+    color:white;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/*
+|**************************************************************************
+| login button style's
+|**************************************************************************
+*/
+#login{
+    background-color: lightgreen;
+    color: black;
+    margin: 8px 0;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
